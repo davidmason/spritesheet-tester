@@ -5,7 +5,7 @@ Test a sprite sheet using a simple json file.
 
 ## Usage
 
-Open `index.html` and add an entity to the url, e.g. `index.html?entity=entities/blob.json`.
+Open `index.html` and add an entity to the url, e.g. `index.html?entity=entities/blob.json`. The entity path should be relative to index.html.
 
 Entities are defined in `json` documents.
 

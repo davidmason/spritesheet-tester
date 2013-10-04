@@ -1,0 +1,15 @@
+{
+  "name": "Waving Guy",
+  "width": 100,
+  "height": 200,
+  "sprite": {
+    "file": "images/waveguy.png",
+    "width": 100,
+    "height": 200,
+    "animations": {
+      "wave": [[0,2], [0,3]],
+      "flap": [[0,0], [0,1], [0,2], [0,3], [0,2], [0,1]],
+      "spank": [[0,0], [0,1]]
+    }
+  }
+}

@@ -33,6 +33,6 @@ Entities are defined in `json` documents.
   - `"width"` and `"height"` within the sprite sheet defines how big each sprite tile is within the sprite sheet (only tiles of a single size are supported).
   - `"animations"` is a container for any animations you want to display. Name the animations anything you like, the name will be shown below the animation on the canvas.
 
-An animation is an array of arrays. e.g. `[[0,0], [0,1, 200], [0,2]]` defines a 3-frame animation using the 3 images down the left-hand column of the sprite sheet. The first and third frames (`[0,0]` and `[0,2`) have the default delay of 100ms, the second frame (`[0,1, 200]`) will be shown for 200ms.
+An animation is an array of arrays. e.g. `[[0,0], [0,1, 200], [0,2]]` defines a 3-frame animation using the 3 images down the left-hand column of the sprite sheet. The first and third frames (`[0,0]` and `[0,2]`) have the default delay of 100ms, the second frame (`[0,1, 200]`) will be shown for 200ms.
 
 Animations will be looped continuously.
